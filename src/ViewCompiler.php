@@ -1,10 +1,11 @@
 <?php
-namespace Shanto\Acl;
+namespace Alfaj\Acl;
 
 trait ViewCompiler {
 
     /**
-     * @author shanto
+     * @author Alfaj
+     * Check parser nullable string
      */
     private static function _nullsafeParser($str, $pre = '') {
         $head = substr($str, 0, strpos($str, '->'));
