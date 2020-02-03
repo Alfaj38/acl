@@ -1,13 +1,13 @@
 {
-    "name": "shanto/acl",
+    "name": "alfaj/acl",
     "description": "Dynamically configurable access control management for laravel applications",
     "keywords": ["laravel", "acl", "dynamic role and permission"],
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Shanto Kumar Sarker",
-            "email": "sk.bd2007@gmail.com"
+            "name": "Mamunur Roshid",
+            "email": "mmamun.roshid@gmail.com"
         }
     ],
     "minimum-stability": "dev",
@@ -17,7 +17,7 @@
             "src/helpers.php"
         ],
         "psr-4": {
-            "shanto\\acl\\": "src/"
+            "alfaj\\acl\\": "src/"
         }
     }
 }

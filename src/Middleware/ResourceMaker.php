@@ -1,12 +1,12 @@
 <?php
 
-namespace Shanto\Acl\Middleware;
+namespace Alfaj\Acl\Middleware;
 
 use Closure;
 use Illuminate\Database\QueryException;
 use Illuminate\Routing\Route;
-use Shanto\Acl\Models\Resource;
-use Shanto\Acl\Models\Permission;
+use Alfaj\Acl\Models\Resource;
+use Alfaj\Acl\Models\Permission;
 
 class ResourceMaker {
 

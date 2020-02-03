@@ -1,13 +1,13 @@
 <?php
 
-namespace Shanto\Acl\Http;
+namespace Alfaj\Acl\Http;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use Shanto\Acl\Models\Resource;
-use Shanto\Acl\Models\Role;
-use Shanto\Acl\Models\Permission;
-use Shanto\Acl\Services\RoleService;
+use Alfaj\Acl\Models\Resource;
+use Alfaj\Acl\Models\Role;
+use Alfaj\Acl\Models\Permission;
+use Alfaj\Acl\Services\RoleService;
 
 class RoleController extends Controller {
 

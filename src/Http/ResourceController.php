@@ -1,11 +1,11 @@
 <?php
 
-namespace Shanto\Acl\Http;
+namespace Alfaj\Acl\Http;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use Shanto\Acl\Services\ResourceService;
-use Shanto\Acl\Models\Resource;
+use Alfaj\Acl\Services\ResourceService;
+use Alfaj\Acl\Models\Resource;
 
 class ResourceController extends Controller {
 

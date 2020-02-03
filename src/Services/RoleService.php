@@ -1,13 +1,13 @@
 <?php
-namespace Shanto\Acl\Services;
+namespace Alfaj\Acl\Services;
 
-use Shanto\Acl\Models\Role;
-use Shanto\Acl\Models\Permission;
+use Alfaj\Acl\Models\Role;
+use Alfaj\Acl\Models\Permission;
 use Validator;
 /**
  * Description of RoleService
  *
- * @author shanto
+ * @author Alfaj
  */
 class RoleService {
     /**

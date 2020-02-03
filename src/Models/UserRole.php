@@ -1,6 +1,6 @@
 <?php
 
-namespace Shanto\Acl\Models;
+namespace Alfaj\Acl\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use DB;

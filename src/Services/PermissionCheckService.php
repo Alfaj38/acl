@@ -1,16 +1,16 @@
 <?php
 
-namespace Shanto\Acl\Services;
+namespace Alfaj\Acl\Services;
 
-use Shanto\Acl\Models\Permission;
-use Shanto\Acl\Models\UserRole;
+use Alfaj\Acl\Models\Permission;
+use Alfaj\Acl\Models\UserRole;
 use Auth;
 use Illuminate\Support\Arr;
 
 /**
  * Description of PermissionCheckService
  *
- * @author Shanto Kumar Sarker <sk.bd2007@gmail.com>shanto
+ * @author Alfaj Kumar Sarker <sk.bd2007@gmail.com>Alfaj
  */
 class PermissionCheckService {
         

@@ -1,15 +1,15 @@
 <?php
 
-namespace Shanto\Acl\Commands;
+namespace Alfaj\Acl\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Database\QueryException;
 use Illuminate\Support\Facades\Route;
-use Shanto\Acl\Models\Permission;
-use Shanto\Acl\Models\Resource;
+use Alfaj\Acl\Models\Permission;
+use Alfaj\Acl\Models\Resource;
 use Log;
-use Shanto\Acl\Models\Role;
-use Shanto\Acl\Services\AnnotationService;
+use Alfaj\Acl\Models\Role;
+use Alfaj\Acl\Services\AnnotationService;
 
 
 class AclResource extends Command

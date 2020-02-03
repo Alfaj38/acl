@@ -6,15 +6,15 @@
  * and open the template in the editor.
  */
 
-namespace Shanto\Acl\Services;
+namespace Alfaj\Acl\Services;
 
-use Shanto\Acl\Models\Resource;
+use Alfaj\Acl\Models\Resource;
 use Validator;
 
 /**
  * Description of ResourceService
  *
- * @author Shanto Kumar Sarker <sk.bd2007@gmail.com>shanto
+ * @author Alfaj Kumar Sarker <sk.bd2007@gmail.com>Alfaj
  */
 class ResourceService {
     /**

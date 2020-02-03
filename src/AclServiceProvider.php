@@ -1,5 +1,5 @@
 <?php
-namespace Shanto\Acl;
+namespace Alfaj\Acl;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Blade;
