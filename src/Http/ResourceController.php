@@ -89,5 +89,30 @@ class ResourceController extends Controller {
 
         return redirect('/resource')->with('msg', 'Resource can\'t deleted successfully!');
     }
+    /**
+     * @param $id
+     * @return \Illuminate\Http\RedirectResponse
+     */
+    public function reArrangeResource(){
 
+        $controllers = [];
+
+        foreach (Route::getRoutes()->getRoutes() as $route)
+        {
+            $action = $route->getAction();
+
+            if (array_key_exists('controller', $action))
+            {
+                // You can also use explode('@', $action['controller']); here
+                // to separate the class name from the method
+                $controllers[] = $action['controller'];
+            }
+
+
+
+        }
+        echo '<pre>';
+        print_r($controllers);
+        die;
+    }
 }
