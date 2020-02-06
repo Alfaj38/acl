@@ -24,6 +24,7 @@ class PermissionTableSeeder extends Seeder {
         Permission::create(['role_id'=>1,'resource_id' => sha1('Alfaj\Acl\Http\ResourceController@destroy', false)]);
         Permission::create(['role_id'=>1,'resource_id' => sha1('Alfaj\Acl\Http\ResourceController@store', false)]);
         Permission::create(['role_id'=>1,'resource_id' => sha1('Alfaj\Acl\Http\ResourceController@update', false)]);
+        Permission::create(['role_id'=>1,'resource_id' => sha1('Alfaj\Acl\Http\ResourceController@reGenerateResource', false)]);
     }
 }
 

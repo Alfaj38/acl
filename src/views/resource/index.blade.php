@@ -30,6 +30,7 @@
                     </div>
                     <div class="pr-2">
                         <a class="btn btn-sm btn-primary" href="{{url('/resource/create')}}">Create New</a>
+                        <a class="btn btn-sm btn-success" href="/rearrange-resource">Re-Generate Resource</a>
                     </div>
                 </div>
             </div>

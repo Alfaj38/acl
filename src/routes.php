@@ -13,5 +13,5 @@ Route::group(['middleware' => ['web', 'resource.maker','auth.acl'],'namespace'=>
     Route::get('resource/edit/{id}','ResourceController@edit');
     Route::post('resource/update/{id}','ResourceController@update');
     Route::get('resource/destroy/{id}','ResourceController@destroy');
-    Route::get('rearrange-resource','ResourceController@reArrangeResource');
+    Route::get('rearrange-resource','ResourceController@reGenerateResource');
 });

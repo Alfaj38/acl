@@ -26,7 +26,7 @@ class AclResource extends Command
      *
      * @var string
      */
-    protected $description = 'Automatically make resources for Uzzal\ACL library';
+    protected $description = 'Automatically make resources for Alfaj\ACL library';
 
     protected $_skip=[];
     private $_controller_path_pattern = '';
@@ -199,7 +199,7 @@ class AclResource extends Command
      */
     private function _getControllerName($action) {
         $patterns[] = '/'.$this->_controller_path_pattern.'\\\([a-zA-Z\\\]+)Controller\@/';
-        $patterns[] = '/Uzzal\\\Acl\\\Http\\\([a-zA-Z\\\]+)Controller\@/';
+        $patterns[] = '/Alfaj\\\Acl\\\Http\\\([a-zA-Z\\\]+)Controller\@/';
 
         foreach($patterns as $p){
             preg_match($p, $action, $matches);
