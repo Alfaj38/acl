@@ -11,13 +11,16 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "php": ">=7.1.4",
+        "laravel/framework": ">=6.*"
+    },
     "autoload": {
         "files": [
             "src/helpers.php"
         ],
         "psr-4": {
-            "alfaj\\acl\\": "src/"
+            "Alfaj\\Acl\\": "src/"
         }
     }
 }
