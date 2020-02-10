@@ -134,6 +134,7 @@ class ResourceController extends Controller {
         $controller = $this->__getController($action);
 
         $name = $controller . ' ' . $method .'::'.$this->_getActionName($action);
+        $name = $controller . ' ' .$this->_getActionName($action);
 
         Resource::create(['resource_id'=>$resource_id,'name'=>$name, 'controller'=>$controller, 'action'=>$action]);
 
@@ -182,7 +183,16 @@ class ResourceController extends Controller {
         preg_match($pattern, $action, $matches);
 
         if (count($matches) == 2) {
-            return ucfirst($matches[1]);
+            $name = ucfirst($matches[1]);
+            if($name=='Index'){
+                $name ='List';
+            }else if($name = 'Destroy'){
+                $name ='DELETE';
+            }else if($name=='Store'){
+                $name ='Save';
+            }
+
+            return $name;
         }
 
         return '';
