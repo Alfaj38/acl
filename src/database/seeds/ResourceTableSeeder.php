@@ -24,7 +24,7 @@ class ResourceTableSeeder extends Seeder {
         Resource::create(['resource_id'=>sha1('Alfaj\Acl\Http\ResourceController@destroy', false),'name'=>'Resource Delete', 'controller'=>'Resource', 'action'=>'Alfaj\Acl\Http\ResourceController@destroy']);
         Resource::create(['resource_id'=>sha1('Alfaj\Acl\Http\ResourceController@store', false),'name'=>'Resource Save', 'controller'=>'Resource', 'action'=>'Alfaj\Acl\Http\ResourceController@store']);
         Resource::create(['resource_id'=>sha1('Alfaj\Acl\Http\ResourceController@update', false),'name'=>'Resource Update', 'controller'=>'Resource', 'action'=>'Alfaj\Acl\Http\ResourceController@update']);
-        Resource::create(['resource_id'=>sha1('Alfaj\Acl\Http\ResourceController@reGenerateResource', false),'name'=>'Resource GET::ReGenerateResource', 'controller'=>'Resource', 'action'=>'Alfaj\Acl\Http\ResourceController@reGenerateResource']);
+        Resource::create(['resource_id'=>sha1('Alfaj\Acl\Http\ResourceController@reGenerateResource', false),'name'=>'Resource ReGenerateResource', 'controller'=>'Resource', 'action'=>'Alfaj\Acl\Http\ResourceController@reGenerateResource']);
     }
 
 }
