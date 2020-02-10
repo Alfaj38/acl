@@ -5,7 +5,7 @@ Dynamically configurable access control for Laravel applications..
 ### install
 
 ```
-composer require Alfaj/acl
+composer require alfaj/acl
 ```
 
 ### configure
@@ -37,7 +37,7 @@ NOTE: If you see any kind of class not found type error try running `composer du
 This library comes with an artisan command `acl:resource` to automatically create all the resources (_controller@action_) available in your project under `app/Http/Controllers` directory. To activate this command you need to add these following lines to your `app/Console/Kernel.php` file. 
 ```php
 protected $commands = [
-    Alfaj\Acl\Commands\AclResource::class
+    \Alfaj\Acl\Commands\AclResource::class
 ];
 
 ```
@@ -104,4 +104,4 @@ Blade example:
 {{ @nullsafe($obj->prop->value) }}
 ```
 ### Credit(Acknowledgement):
-Thanks to Mahbubul Hasan Uzzal for his "https://github.com/mahabubulhasan/acl" package. This package is just an improvement of his codebase for laravel 6 applications.  
+Thanks to Mahbubul Hasan Uzzal for his "https://github.com/mahabubulhasan/acl" package. This package is just an improvement of his codebase for laravel 6 applications and some additional features.  
