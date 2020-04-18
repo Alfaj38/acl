@@ -186,7 +186,7 @@ class ResourceController extends Controller {
             $name = ucfirst($matches[1]);
             if($name=='Index'){
                 $name ='List';
-            }else if($name = 'Destroy'){
+            }else if($name == 'Destroy'){
                 $name ='DELETE';
             }else if($name=='Store'){
                 $name ='Save';
