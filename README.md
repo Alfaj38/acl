@@ -64,8 +64,8 @@ This ACL library comes with two middleware as shown below. `AuthenticateWithAcl`
 
 In your `kernal.php` file add this lines
 ```php
-'auth.acl' => \Alfaj\Acl\Middleware\AuthenticateWithAcl::class,        
-'resource.maker' => \Alfaj\Acl\Middleware\ResourceMaker::class,
+'auth.acl' => \Pollob666\Acl\Middleware\AuthenticateWithAcl::class,        
+'resource.maker' => \Pollob666\Acl\Middleware\ResourceMaker::class,
 ```
 In your `route/web.php` file add this lines
 ```php

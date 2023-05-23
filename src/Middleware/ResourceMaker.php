@@ -1,6 +1,6 @@
 <?php
 
-namespace Alfaj\Acl\Middleware;
+namespace Pollob666\Acl\Middleware;
 
 use Closure;
 use Illuminate\Database\QueryException;
