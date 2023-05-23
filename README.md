@@ -12,7 +12,7 @@ composer require alfaj/acl
 In your laravel config/app.php under providers add 
 
 ```php
-Alfaj\Acl\AclServiceProvider::class
+Pollob666\Acl\AclServiceProvider::class
 ```
 ### publish
 ```
