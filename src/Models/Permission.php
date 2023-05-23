@@ -1,14 +1,14 @@
 <?php
 
-namespace Alfaj\Acl\Models;
+namespace Pollob666\Acl\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use DB;
 
 /**
  * Class Permission
- * @package Alfaj\Acl\Models
- * @author Alfaj Kumar Sarker <sk.bd2007@gmail.com>
+ * @package Pollob666\Acl\Models
+ * @author Pollob666 Kumar Sarker <sk.bd2007@gmail.com>
  */
 class Permission extends Model {
     /**

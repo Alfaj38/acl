@@ -6,7 +6,7 @@ use Closure;
 use Illuminate\Contracts\Auth\Factory as Auth;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
-use Alfaj\Acl\Services\PermissionCheckService;
+use Pollob666\Acl\Services\PermissionCheckService;
 use Route;
 
 class AuthenticateWithAcl {

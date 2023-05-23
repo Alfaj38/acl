@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use Alfaj\Acl\Models\Role;
+use Pollob666\Acl\Models\Role;
 
 class RoleTableSeeder extends Seeder {
 

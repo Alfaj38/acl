@@ -5,7 +5,7 @@ Dynamically configurable access control for Laravel applications..
 ### install
 
 ```
-composer require alfaj/acl
+composer require Pollob666/acl
 ```
 
 ### configure
@@ -37,7 +37,7 @@ NOTE: If you see any kind of class not found type error try running `composer du
 This library comes with an artisan command `acl:resource` to automatically create all the resources (_controller@action_) available in your project under `app/Http/Controllers` directory. To activate this command you need to add these following lines to your `app/Console/Kernel.php` file. 
 ```php
 protected $commands = [
-    \Alfaj\Acl\Commands\AclResource::class
+    \Pollob666\Acl\Commands\AclResource::class
 ];
 
 ```

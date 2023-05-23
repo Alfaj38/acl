@@ -1,15 +1,15 @@
 <?php
 
-namespace Alfaj\Acl\Commands;
+namespace Pollob666\Acl\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Database\QueryException;
 use Illuminate\Support\Facades\Route;
-use Alfaj\Acl\Models\Permission;
-use Alfaj\Acl\Models\Resource;
+use Pollob666\Acl\Models\Permission;
+use Pollob666\Acl\Models\Resource;
 use Log;
-use Alfaj\Acl\Models\Role;
-use Alfaj\Acl\Services\AnnotationService;
+use Pollob666\Acl\Models\Role;
+use Pollob666\Acl\Services\AnnotationService;
 
 
 class AclResource extends Command
@@ -26,7 +26,7 @@ class AclResource extends Command
      *
      * @var string
      */
-    protected $description = 'Automatically make resources for Alfaj\ACL library';
+    protected $description = 'Automatically make resources for Pollob666\ACL library';
 
     protected $_skip=[];
     private $_controller_path_pattern = '';
@@ -199,7 +199,7 @@ class AclResource extends Command
      */
     private function _getControllerName($action) {
         $patterns[] = '/'.$this->_controller_path_pattern.'\\\([a-zA-Z\\\]+)Controller\@/';
-        $patterns[] = '/Alfaj\\\Acl\\\Http\\\([a-zA-Z\\\]+)Controller\@/';
+        $patterns[] = '/Pollob666\\\Acl\\\Http\\\([a-zA-Z\\\]+)Controller\@/';
 
         foreach($patterns as $p){
             preg_match($p, $action, $matches);

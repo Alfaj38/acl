@@ -5,8 +5,8 @@ namespace Pollob666\Acl\Middleware;
 use Closure;
 use Illuminate\Database\QueryException;
 use Illuminate\Routing\Route;
-use Alfaj\Acl\Models\Resource;
-use Alfaj\Acl\Models\Permission;
+use Pollob666\Acl\Models\Resource;
+use Pollob666\Acl\Models\Permission;
 
 class ResourceMaker {
 

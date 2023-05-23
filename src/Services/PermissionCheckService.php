@@ -1,16 +1,16 @@
 <?php
 
-namespace Alfaj\Acl\Services;
+namespace Pollob666\Acl\Services;
 
-use Alfaj\Acl\Models\Permission;
-use Alfaj\Acl\Models\UserRole;
+use Pollob666\Acl\Models\Permission;
+use Pollob666\Acl\Models\UserRole;
 use Auth;
 use Illuminate\Support\Arr;
 
 /**
  * Description of PermissionCheckService
  *
- * @author Alfaj Kumar Sarker <sk.bd2007@gmail.com>Alfaj
+ * @author Pollob666 Kumar Sarker <sk.bd2007@gmail.com>Pollob666
  */
 class PermissionCheckService {
         
