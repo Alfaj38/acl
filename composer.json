@@ -1,13 +1,13 @@
 {
-    "name": "alfaj/acl",
+    "name": "pollob666/acl",
     "description": "Dynamically configurable access control management for laravel applications",
     "keywords": ["laravel", "acl", "dynamic role and permission"],
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Mamunur Roshid",
-            "email": "mmamun.roshid@gmail.com"
+            "name": "Andalib Bin Haque",
+            "email": "pollob666@gmail.com"
         }
     ],
     "minimum-stability": "dev",
